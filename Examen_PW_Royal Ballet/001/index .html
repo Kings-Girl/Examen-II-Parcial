@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Link a FONT-AWESOME-->
+     <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--GALERIA DE FOTOS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!--ESTILOS, Styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body >
+    <div id="wrapper">
+
+        <!--Cabecera, Barra de Navegación-->
+        <div id="banner-wrapper">
+          <header>
+              <div class="header-inner">
+                  <a href="index.html" id="logo">
+                    <img src="./imagenes/otras/Royal Ballet.png" alt="Ballet Royal">               
+                  </a>
+                  <nav id="menu">
+                      <a href="#" id="icono-del-menu">
+                          <i class="fa fa-bars"></i>
+                      </a>
+                      <ul>
+                          <li>
+                              <a href="index .html" class="current">Inicio</a>
+                          </li>
+                          <li>
+                              <a href="formulario.html">Login</a>
+                          </li>
+                          <li>
+                            <a href="#portafolio">Portafolio</a>
+                          </li>
+                          <li>
+                            <a href="#services">Servicio</a>
+                          </li>
+                          <li>
+                            <a href="#social">Contacto</a>
+                          </li>
+                      </ul>
+                  </nav>
+              </div>
+          </header>
+            
+         <!--Slider BAllet-->
+                <section class="slider">               
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider1.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider2.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider3.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider4.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider5.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider6.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider7.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider8.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <div class="myslide one">
+                        <div class="txt">
+                            <h1>Royal Ballet</h1>
+                        </div>
+                        <img class="sli" src="imagenes/slider/slider9.jpg" style="width: 100%; height: 100%;">
+                    </div>
+                    
+                    <!-- onclick -->
+                    <a class="atras" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="siguiente" onclick="plusSlides(1)">&#10095;</a>
+                    
+                    <div class="dotsbox" style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                    <!-- /onclick js -->
+                </section>
+                <script src="js/slider.js"></script>
+            
+        </div>
+
+        <!---Parrafos de 3 en 3-->
+        
+    <section id="menuOpc"> 
+        <article  class="one-third" id="opciones1">
+            <div class="icono">
+                <i class="fa fa-desktop"></i>
+            </div>
+             <h3>Royal Ballet</h3>
+                 <p>
+                     Somos la primera compañía de ballet de Reino Unido. Nuestra compañía está bajo la dirección de Kevin O’Hare, llena de tradición e innovación que se ve representada en cada una de nuestras obras. Nuestro repertorio y la trayectoria que nos identifica, presenta los clásicos y reconocidos ballets, los cuales nos comprometen a enriquecer y satisfacer a nuestros espectadores para encaminarlos en el hermoso mundo del ballet.
+                 </p>
+        </article>
+        
+        <article  class="one-third" id="opciones2">
+            <div class="icono">
+                <i class="fa fa-pencil-square-o fa-3x"></i>
+            </div>
+            <h3>Ballet en Casa</h3>
+            <p>
+            Estamos transmitiendo a través de nuestro canal de YouTube diferentes producciones que hemos sacado a lo largo de los años. Las producciones son completamente gratuitas, para que el público pueda seguir disfrutando desde casa el hermoso arte del ballet. Cada seguidor tiene acceso a ver diferentes producciones y enriquecerse con la dulzura, la elegancia, la delicadeza, la fuerza, y el nivel profesional que cada bailarín de nuestra compañía muestra en escena. 
+                
+        </article>
+
+        <article  class="one-third" id="opciones3">
+            <div class="icono">
+                <i class="fa fa-file-code-o fa-2x"></i>
+            </div>
+            <h3>Puedes Donar</h3>
+            <p>
+            Son más de cien artistas los que la compañía contrata anualmente, y necesitamos de tus donaciones. Según el país o región podrás realizar tu donación. No poseemos un alcance a nivel mundial, ayudanos a compartir y difundir el mensaje. Mayor información: +44 (0)20 6304 4000 / royalballet@gmail.com.
+
+            </p>         
+
+        </article>
+    </section> 
+
+        <div class="clearfix-padding"></div>   
+         <!--PORTAFOLIO-->
+
+        <section class="left-col" id="portafolio">
+            <h3>Royal Ballet</h3>
+            <p>
+            El Royal Ballet nace gracias a la visión de Ninnette de Valois, bailarina, coreógrafa, y emprendedora. Empieza con un pequeño sueño, formar un espacio en el cual los bailarines lograran enriquecer al público con el arte del ballet. Su deseo era formar futuros artistas bajo el mismo sentir, y así en un futuro no muy lejano darles la oportunidad de pasar de ser alumnos a ser profesionales. En 1946, Ninnette llega a la Royal Opera House, lanzando su premiere "La Bella Durmiente", un clásico del ballet. Después de 25 años de esfuerzo y dedicación llegamos a ser lo que hoy en día ustedes conocen como Royal Ballet. 
+                
+            </p>
+        </section>
+        <section id="logo" class="sidebar">
+            <img src="imagenes/otras/Royal Ballet.png" alt="theroyalballet">
+        </section> 
+        <div class="clearfix-padding"></div>   
+       
+        <!--Servicios-->
+
+        <section id="servicios">
+
+         <div class="one-third-padding" id="services">
+           <h3>Coreógrafos</h3>
+           <img src="imagenes/otras/vadim.jpg" height="400" width="800">
+           <p>
+            Wayne McGregor: coreógrafo residente de la compañía desde el 2006. Christopher Wheeldon: empieza como estudiante y luego baila unos años con la compañía, en la actualidad ejerce como artista asociado. 
+           </p>
+         </div>
+
+         <div class="one-third-padding" id="services">
+            <h3>Entrenamiento</h3>
+            <img src="imagenes/otras/durmiente.jpg" height="400" width="800">
+            <p>
+            En la actualidad somos la escuela que gradúa el mayor porcentaje de los bailarines de nuestra compañía, Royal Ballet, y también del Birmingham Royal Ballet. En adición, somos uno de los tres centros mayormente reconocidos por nuestra excelencia en la enseñanza del ballet clásico. 
+            </p>
+          </div>
+
+          <div class="one-third-padding" id="services">
+            <h3>Artista Estrella</h3>
+            <img src="imagenes/otras/marianela.jpg" height="400" width="800">
+            <p>
+                Marianela Núñez es una de nuestras bailarinas principales con 23 años de trayectoria en el Royal Ballet. Desde su infancia inicia sus estudios con nosotros y de muy temprana edad ingresa a nuestra compañía. Desde joven logramos identificr que su futuro ya estaba asegurado en la Royal Opera House. 
+            </p>
+          </div>
+        </section>  
+
+          <!--PEQUEÑO MENU DE NAVEGACIÓN-->
+
+        <footer>
+            <div class="banner--wrapper">
+             <div class="icon-text">
+                 <div id="menupie" class="icon-text-icon">
+                     <ul class="footer-nav">
+                         <li>
+                             <a href="index.html">INICIO</a>
+                         </li>
+                         <li>
+                             <a href="formulario.html">LOG IN</a>
+                         </li>
+                         <li>
+                            <a href="#opciones">OPCIONES</a>
+                        </li>
+                        <li>
+                            <a href="#services">NUESTRO EQUIPO</a>
+                        </li>
+                        <li>
+                            <a href="#social">CONTACTO</a>
+                        </li>
+                        <li>
+                            <a href="creators.html">CREATORS</a>
+                        </li>
+                     </ul>
+                 </div>
+
+                 <div  class="icon-text-text" id="socialIco">
+                     <ul class="social">
+                         <!---->
+                         <li>
+                             <a href="email:contact">
+                                 <i class="fa fa-envelope-o"></i>
+                             </a>
+                         </li>
+                         <!--FACEBOOK-->
+                         <li>
+                         <a href="https://www.facebook.com/royaloperahouse" target="_blank">
+                          <i class="fa fa-facebook"></i>
+                         </a>    
+                         </li>
+                        <!--TWITTER-->
+                        <li>
+                            <a href="https://twitter.com/login/" target="_blank">
+                             <i class="fa fa-twitter"></i>
+                            </a>    
+                            </li>
+                        <!--YOUTUBE-->
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCHS5XKgf2FCBF8pZllE_bjw" target="_blank">
+                             <i class="fa fa-youtube"></i>
+                            </a>    
+                        </li>
+                        <!--INSTAGRAM-->
+                        <li>
+                            <a href="https://www.instagram.com/royaloperahouse/?hl=es-la" target="_blank">
+                             <i class="fa fa-instagram"></i>
+                            </a>    
+                        </li>
+                     </ul>
+                 </div>
+             </div>
+
+
+
+
+
+            </div>
+        </footer>
+
+        <footer class="footer-second">
+            <p>
+                &copy; <a href="https://www.facebook.com/SABellart" target="_blank">Judith Reyes y Edgard Perezcassar</a>
+            </p>
+
+        </footer>
+
+      
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background:lightgray;
+}
+.marcoTarteja {
+    
+    background-color: white;
+    margin: 10%;
+    padding: 0%;
+    max-width: 25%;
+    height: 150px;
+    margin-top: 4%;
+    display: inline-block;
+    box-shadow: 5px 0px 9px 0px black;   
+}
+.marcoTarteja header {
+     background-color:lightskyblue; 
+}
+
+.marcoTarteja a {
+    border-radius: 5px;
+    background-color: lime;
+    padding: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: red;
+    
+
+}
+
+#cartel {
+    background-color: lightskyblue;
+    margin: 0 auto;
+    padding: 2% 2% 2% 2%;
+    max-width: 600px;
+    margin-top: 4%;     
+}
+h1 {
+    text-align: center;
+    padding: 1;
+    color: white;   
+}
+#border1 {
+    background-color: white;
+    margin: 100px;
+    padding: 2% 2% 2% 2%;
+    max-width: 150px;
+    margin-top: 4%;
+    display: inline-flex;
+}
+#boton {
+    text-align: center;
+    text-decoration:none;
+    border-radius: 50px;
+    bottom: center;
+}
+
+#centro {
+    display: inline-flex;
+    padding: 5% 25%;
+    text-align: center;
+}
+
+
+
+
+

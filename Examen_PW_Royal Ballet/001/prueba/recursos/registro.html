@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/registro.css">
+</head>
+<body>
+    <div id="todo">
+<!-- Contenedor principal-->
+<div id="cartel">
+    <header>
+        <h1>Los pequeños detalles llenan el universo!!!</h1>
+    </header>
+</div>  
+<!--Cartel-->
+<h2>
+    Para registrase debe de llenar el
+    siguiente formulario
+</h2>
+<br><br>
+<h3 style="color: red;">*&nbsp;Campos obligarotios</h3>
+<!--FIN DEL CARTEL-->
+
+     <div id="campos">            
+            <form id="usuario" name="usuario" 
+                action="ejemplo2.html" method="post"
+        
+                 >
+
+                <input type="hidden" name="noCarnet" value="12548">
+
+
+                <div class="fila">                
+                    <label for="dspUsuario">&nbsp;Nombre*&nbsp;</label>
+                    <input type="text" name="dspUsuario" id="dspUsuario" 
+                            value=""
+                            style="width: 200px;"
+                            class="form-control"
+                             required   >
+                </div>
+                <div class="fila">                
+                    <label for="apellido">&nbsp;Apellido*&nbsp;</label>
+                    <input type="text" name="dspApellido" id="dspApellido" 
+                            value=""
+                            style="width: 200px;"
+                            class="form-control"
+                             required   >
+                </div>
+                <div class="fila">                
+                    <label for="direccion">&nbsp;Dirección de Domicilio*&nbsp;</label>
+                     <textarea name="direccion" id="direccion" cols="40" rows="3" value="">Favor indicar su dirección</textarea>
+                </div>
+
+                
+                <div id="gen">
+                    <legend>Género</legend>
+                    <input type="radio" name="genero" id="femenino" value="F">
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" name="genero" id="masculino" value="M">
+                    <label for="masculino">Masculino</label>
+                </div>
+                
+                
+                <div class="fila">              
+                    <label for="dspedad">&nbsp;Edad*&nbsp;</label>
+                    <input type="number" name="dspedad" id="dspedad" 
+                            value=""
+                            style="width: 200px;"
+                            class="form-control"
+                             required   >
+                </div>
+                <div class="fila">
+                    <label for="correo">Correo Electrónico*&nbsp;</label>
+                    <input type="email"  class="form-control"
+                           name="correo" id="correo">
+                  </div>
+
+                <div class="fila">
+                    <label for="clave">Contraseña*&nbsp;</label>
+                    <input type="contraseña" class="form-control"
+                           name="clave" id="clave">
+                </div>                
+
+                <div class="fila">
+                    <label for="clave2">Confirme su contraseña*&nbsp;</label>
+                    <input type="contraseña"
+                           name="clave2" id="clave2">
+                </div>
+                <br><br>
+                <a href="#" target="_blank" style="background-color: lightcoral;">Enviar</a>
+                <a href="#" target="_blank" style="background-color:lightgreen;">Restablecer</a>
+                <a href="#" target="_blank" style="background-color:lightblue;">Inicio</a>
+            </form>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+
+}
+
+#cartel {
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    padding: 2% 2% 2% 2%;
+    max-width: 600px;
+    margin-top: 4%;     
+}
+  
+h1 {
+    text-align: center;
+    padding: 1;
+    color: white;   
+}
+
+#todo {
+    display: inline-flex;
+    padding: 20px;
+    display: block;   
+}
+
+#todo input {
+    width: 20%;
+}
+
+#todo select {
+    width: 20%;
+}
+
+#todo a {
+    width: 6%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -1%;
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    text-align: center;
+}
+
+
+
